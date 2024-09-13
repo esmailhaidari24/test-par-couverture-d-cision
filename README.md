@@ -1,5 +1,5 @@
 
-+ fonction calculateDiscount(nombreArticles : entier, clientExistant : booléen, typeClient : chaîne, jourFerie : booléen) : décimal
++1-  fonction calculateDiscount(nombreArticles : entier, clientExistant : booléen, typeClient : chaîne, jourFerie : booléen) : décimal
     remise : décimal = 0.0
     si nombreArticles > 10
         remise = 0.15
@@ -15,6 +15,7 @@
 
     retourner remise
 fin fonction
+
 
 * fonction calculerTotalAvecReduction(prixUnitaire : décimal, nombreArticles : entier, estMembre : booléen) : décimal
     reductionTotale : décimal = 0.0
@@ -32,6 +33,8 @@ fin fonction
     prixFinal : décimal = total - reductionTotale
     retourner prixFinal
 fin fonction
+
+
 
 
 
